@@ -1,0 +1,30 @@
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    # Runs daily at 18:00 UTC (03:00 JST)
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
+        env:
+          # Classic PAT with `repo` + `read:user` scope, stored as a repository secret.
+          # Private contributions are only counted when
+          # Settings > Profile > "Include private contributions on my profile" is enabled.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          # JST
+          UTC_OFFSET: 9
+          # Notebooks are measured by file size and can swamp the language cards.
+          # Check the first generated card, then add "Jupyter Notebook" here if it dominates.
+          EXCLUDE: ""
