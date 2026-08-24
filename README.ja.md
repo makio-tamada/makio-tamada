@@ -109,20 +109,20 @@ WordPress サイトを RAG ベースのチャット体験に変えるマルチ�
 <sub>言語・コミット統計にはプライベートリポジトリを含みます（リポジトリ名やコミット内容は公開されません）。</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg">
-  <img src="./profile-summary-card-output/github/1-repos-per-language.svg" width="49%" alt="言語別リポジトリ">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github_dark/1-repos-per-language.svg">
+  <img src="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github/1-repos-per-language.svg" width="49%" alt="言語別リポジトリ">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg">
-  <img src="./profile-summary-card-output/github/2-most-commit-language.svg" width="49%" alt="コミットの多い言語">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github_dark/2-most-commit-language.svg">
+  <img src="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github/2-most-commit-language.svg" width="49%" alt="コミットの多い言語">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg">
-  <img src="./profile-summary-card-output/github/3-stats.svg" width="49%" alt="統計">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github_dark/3-stats.svg">
+  <img src="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github/3-stats.svg" width="49%" alt="統計">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg">
-  <img src="./profile-summary-card-output/github/4-productive-time.svg" width="49%" alt="活動時間帯">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github_dark/4-productive-time.svg">
+  <img src="https://raw.githubusercontent.com/makio-tamada/makio-tamada/main/profile-summary-card-output/github/4-productive-time.svg" width="49%" alt="活動時間帯">
 </picture>
 
 ---
